@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E79DB30C-815E-4208-882A-CB69876222F1}</ProjectGuid>
+    <RootNamespace>VF_handlers</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <PlatformToolset>v142</PlatformToolset>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <PlatformToolset>v142</PlatformToolset>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetExt>.dll</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <TargetExt>.dll</TargetExt>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Siemens\TR13_QA\include;D:\Siemens\TR13_QA\include_cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>IPLIB=none;_ITERATOR_DEBUG_LEVEL=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>D:\Siemens\TR13_QA\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>D:\Siemens\TR13_QA\lib\*.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Siemens\TR13_QA\include;D:\Siemens\TR13_QA\include_cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>IPLIB=none;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>D:\Siemens\TR13_QA\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>D:\Siemens\TR13_QA\lib\*.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Vinfast_Custom.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AH-create-mcn.cpp" />
+    <ClCompile Include="AH-notify-scooter-release-all.cpp" />
+    <ClCompile Include="AH_access_cl_to_buyer.cpp" />
+    <ClCompile Include="AH_add_release_sts_sol_items.cpp" />
+    <ClCompile Include="AH_add_release_sts_sol_items_scooter.cpp" />
+    <ClCompile Include="AH_assign_workflow_tasks.cpp" />
+    <ClCompile Include="AH_attach_cost_form.cpp" />
+    <ClCompile Include="AH_attach_manufac_form.cpp" />
+    <ClCompile Include="AH_change_ownership_cl_to_cl.cpp" />
+    <ClCompile Include="AH_copy_costImpactForm_2_costObject.cpp" />
+    <ClCompile Include="AH_copy_part_to_ecn_storage.cpp" />
+    <ClCompile Include="AH_create_dde_from_ecn_storage.cpp" />
+    <ClCompile Include="AH_create_or_fill_plant_form.cpp" />
+    <ClCompile Include="AH_create_plant_form_afs.cpp" />
+    <ClCompile Include="AH_jes_sos_notification_worklow.cpp" />
+    <ClCompile Include="AH_MCR_create_purchasing_object.cpp" />
+    <ClCompile Include="AH_notify.cpp" />
+    <ClCompile Include="AH_route_process_by_dataset.cpp" />
+    <ClCompile Include="AH_send_email_to_all.cpp" />
+    <ClCompile Include="AH_send_email_to_all_participants.cpp" />
+    <ClCompile Include="AH_send_email_to_all_participants_car.cpp" />
+    <ClCompile Include="AH_send_email_to_all_participants_scooter.cpp" />
+    <ClCompile Include="AH_send_mail_EPM_noti_workflow_participants.cpp" />
+    <ClCompile Include="AH_send_mail_notification_workflow_participants.cpp" />
+    <ClCompile Include="AH_send_mail_update_status_jes.cpp" />
+    <ClCompile Include="AH_send_parts_transfer_request.cpp" />
+    <ClCompile Include="AH_create_escooter_plant_form.cpp" />
+    <ClCompile Include="AH_set_number_property.cpp" />
+    <ClCompile Include="AH_set_reviewer_to_jes_form.cpp" />
+    <ClCompile Include="RH_check_bom_bop_status.cpp" />
+    <ClCompile Include="RH_check_checkedout_objects.cpp" />
+    <ClCompile Include="RH_check_dde_status.cpp" />
+    <ClCompile Include="RH_check_dde_storage_exception.cpp" />
+    <ClCompile Include="RH_check_release_assembly_escooter.cpp" />
+    <ClCompile Include="RH_check_release_status.cpp" />
+    <ClCompile Include="RH_check_revision_baseline.cpp" />
+    <ClCompile Include="RH_check_SAP_transfer_prop.cpp" />
+    <ClCompile Include="RH_Check_unreleaseed_ItemRevision.cpp" />
+    <ClCompile Include="RH_check_workflow_process_status.cpp" />
+    <ClCompile Include="AH_create_purchasing_object.cpp" />
+    <ClCompile Include="RH_is_ECN_valid_to_trigger.cpp" />
+    <ClCompile Include="RH_is_include_baseline_revisions.cpp" />
+    <ClCompile Include="RH_Part_Not_Include_Release_Statuses.cpp" />
+    <ClCompile Include="RH_set_task_state.cpp" />
+    <ClCompile Include="RH_check_object_properties.cpp" />
+    <ClCompile Include="AH_create_ecn.cpp" />
+    <ClCompile Include="AH_cpy_piece_cost_form.cpp" />
+    <ClCompile Include="Vinfast_Custom.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="VersionResource.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
