@@ -87,12 +87,12 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Siemens\TR13_QA\include;D:\Siemens\TR13_QA\include_cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Siemens\TR13\include;C:\Siemens\TR13\include_cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>IPLIB=none;_ITERATOR_DEBUG_LEVEL=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>D:\Siemens\TR13_QA\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>D:\Siemens\TR13_QA\lib\*.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Siemens\TR13\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>C:\Siemens\TR13\lib\*.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
@@ -108,7 +108,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="resource.h" />
     <ClInclude Include="Vinfast_Custom.h" />
   </ItemGroup>
   <ItemGroup>
@@ -123,6 +122,7 @@
     <ClCompile Include="AH_change_ownership_cl_to_cl.cpp" />
     <ClCompile Include="AH_copy_costImpactForm_2_costObject.cpp" />
     <ClCompile Include="AH_copy_part_to_ecn_storage.cpp" />
+    <ClCompile Include="AH_create_source_part_ecr_released.cpp" />
     <ClCompile Include="AH_create_dde_from_ecn_storage.cpp" />
     <ClCompile Include="AH_create_or_fill_plant_form.cpp" />
     <ClCompile Include="AH_create_plant_form_afs.cpp" />
@@ -160,9 +160,6 @@
     <ClCompile Include="AH_create_ecn.cpp" />
     <ClCompile Include="AH_cpy_piece_cost_form.cpp" />
     <ClCompile Include="Vinfast_Custom.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="VersionResource.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

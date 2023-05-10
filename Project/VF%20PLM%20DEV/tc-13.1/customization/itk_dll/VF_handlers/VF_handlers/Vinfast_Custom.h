@@ -142,6 +142,7 @@ extern int AH_create_dde_from_ecn_storage(EPM_action_message_t msg);
 extern int AH_jes_sos_notification_worklow(EPM_action_message_t msg);
 extern int AH_send_mail_update_status_jes(EPM_action_message_t msg);
 extern int AH_set_reviewer_to_jes_form(EPM_action_message_t msg);
+extern int AH_create_source_part_ecr_released(EPM_action_message_t msg);
 
 std::vector<std::string> split_string(std::string str, char delimiter);
 std::vector<std::string> split_string2(std::string str, std::string delimiter);
@@ -237,3 +238,38 @@ inline void rtrim(std::string& s) {
 		return !std::isspace(ch);
 		}).base(), s.end());
 }
+
+
+
+struct Node {
+	string key;
+	tag_t value;
+	Node* next;
+};
+
+class LinkedList {
+private:
+	Node* head;
+
+public:
+	LinkedList() {
+		head = NULL;
+	}
+
+	void insert(string key, int value) {
+		Node* newNode = new Node;
+		newNode->key = key;
+		newNode->value = value;
+		newNode->next = head;
+		head = newNode;
+	}
+
+	void display() {
+		Node* current = head;
+		while (current != NULL) {
+			cout << current->key << ": " << current->value << endl;
+			current = current->next;
+		}
+	}
+};
+

@@ -96,6 +96,8 @@ extern int VF_handlers_register_handlers(int* decision, va_list args)
 	iRetCode = EPM_register_action_handler("AH-send-mail-update-status-jes", "This action handler creates dde object based on DDE storage", (EPM_action_handler_t)AH_send_mail_update_status_jes);
 	
 	iRetCode = EPM_register_action_handler("AH-set-reviewer-to-jes-form", "This action handler creates dde object based on DDE storage", (EPM_action_handler_t)AH_set_reviewer_to_jes_form);
+	
+	iRetCode = EPM_register_action_handler("AH-create-source-part-ecr-released", "This action handler creates dde object based on DDE storage", (EPM_action_handler_t)AH_create_source_part_ecr_released);
 
 	return iRetCode;
 }

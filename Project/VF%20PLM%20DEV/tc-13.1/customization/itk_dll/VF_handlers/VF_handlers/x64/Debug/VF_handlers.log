@@ -1,0 +1,139 @@
+﻿  AH-create-mcn.cpp
+  AH-notify-scooter-release-all.cpp
+  AH_access_cl_to_buyer.cpp
+  AH_add_release_sts_sol_items.cpp
+  AH_add_release_sts_sol_items_scooter.cpp
+  AH_assign_workflow_tasks.cpp
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\AH_assign_workflow_tasks.cpp(132,8): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\AH_assign_workflow_tasks.cpp(173,8): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\AH_assign_workflow_tasks.cpp(216,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\AH_assign_workflow_tasks.cpp(227,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\AH_assign_workflow_tasks.cpp(327,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\AH_assign_workflow_tasks.cpp(337,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  AH_attach_cost_form.cpp
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\AH_attach_cost_form.cpp(325,11): warning C4996: 'AOM_save': "AOM_save" deprecated in Teamcenter "11.2"; Use "AOM_save_with_extensions or AOM_save_without_extensions" instead.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\AH_attach_cost_form.cpp(362,11): warning C4996: 'AOM_save': "AOM_save" deprecated in Teamcenter "11.2"; Use "AOM_save_with_extensions or AOM_save_without_extensions" instead.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\AH_attach_cost_form.cpp(399,11): warning C4996: 'AOM_save': "AOM_save" deprecated in Teamcenter "11.2"; Use "AOM_save_with_extensions or AOM_save_without_extensions" instead.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\AH_attach_cost_form.cpp(436,11): warning C4996: 'AOM_save': "AOM_save" deprecated in Teamcenter "11.2"; Use "AOM_save_with_extensions or AOM_save_without_extensions" instead.
+  AH_attach_manufac_form.cpp
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\AH_attach_manufac_form.cpp(127,53): warning C4996: 'AOM_save': "AOM_save" deprecated in Teamcenter "11.2"; Use "AOM_save_with_extensions or AOM_save_without_extensions" instead.
+  AH_change_ownership_cl_to_cl.cpp
+  AH_copy_costImpactForm_2_costObject.cpp
+  AH_copy_part_to_ecn_storage.cpp
+  AH_create_dde_from_ecn_storage.cpp
+  AH_create_or_fill_plant_form.cpp
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\AH_create_or_fill_plant_form.cpp(126,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  AH_create_plant_form_afs.cpp
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\AH_create_plant_form_afs.cpp(130,11): warning C4996: 'AOM_save': "AOM_save" deprecated in Teamcenter "11.2"; Use "AOM_save_with_extensions or AOM_save_without_extensions" instead.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\AH_create_plant_form_afs.cpp(136,13): warning C4996: 'AOM_save': "AOM_save" deprecated in Teamcenter "11.2"; Use "AOM_save_with_extensions or AOM_save_without_extensions" instead.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\AH_create_plant_form_afs.cpp(209,11): warning C4996: 'AOM_save': "AOM_save" deprecated in Teamcenter "11.2"; Use "AOM_save_with_extensions or AOM_save_without_extensions" instead.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\AH_create_plant_form_afs.cpp(215,13): warning C4996: 'AOM_save': "AOM_save" deprecated in Teamcenter "11.2"; Use "AOM_save_with_extensions or AOM_save_without_extensions" instead.
+  AH_jes_sos_notification_worklow.cpp
+  AH_MCR_create_purchasing_object.cpp
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\AH_MCR_create_purchasing_object.cpp(658,23): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\AH_MCR_create_purchasing_object.cpp(669,20): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  AH_notify.cpp
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\AH_notify.cpp(107,3): warning C4996: 'AOM_UIF_ask_value': "AOM_UIF_ask_value" deprecated in Teamcenter "11.1"; Use "AOM_ask_displayable_values" instead.
+  AH_route_process_by_dataset.cpp
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\AH_route_process_by_dataset.cpp(61,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  AH_send_email_to_all.cpp
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\AH_send_email_to_all.cpp(299,22): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  AH_send_email_to_all_participants.cpp
+  Generating Code...
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\AH_route_process_by_dataset.cpp(86): warning C4700: uninitialized local variable 'text_file' used
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\AH-create-mcn.cpp(243): warning C4715: 'createMCNCreateInput': not all control paths return a value
+  Compiling...
+  AH_send_email_to_all_participants_car.cpp
+  AH_send_email_to_all_participants_scooter.cpp
+  AH_send_mail_EPM_noti_workflow_participants.cpp
+  AH_send_mail_notification_workflow_participants.cpp
+  AH_send_mail_update_status_jes.cpp
+  AH_send_parts_transfer_request.cpp
+  AH_create_escooter_plant_form.cpp
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\AH_create_escooter_plant_form.cpp(86,9): warning C4996: 'AOM_save': "AOM_save" deprecated in Teamcenter "11.2"; Use "AOM_save_with_extensions or AOM_save_without_extensions" instead.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\AH_create_escooter_plant_form.cpp(92,11): warning C4996: 'AOM_save': "AOM_save" deprecated in Teamcenter "11.2"; Use "AOM_save_with_extensions or AOM_save_without_extensions" instead.
+  AH_set_number_property.cpp
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\AH_set_number_property.cpp(208,3): warning C4996: 'AOM_save': "AOM_save" deprecated in Teamcenter "11.2"; Use "AOM_save_with_extensions or AOM_save_without_extensions" instead.
+  AH_set_reviewer_to_jes_form.cpp
+  RH_check_bom_bop_status.cpp
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\RH_check_bom_bop_status.cpp(107,3): warning C4996: 'BOM_line_look_up_attribute': "BOM_line_look_up_attribute" deprecated in Teamcenter "13.2"; Use "TCTYPE_ask_property_by_name" instead.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\RH_check_bom_bop_status.cpp(108,3): warning C4996: 'BOM_line_look_up_attribute': "BOM_line_look_up_attribute" deprecated in Teamcenter "13.2"; Use "TCTYPE_ask_property_by_name" instead.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\RH_check_bom_bop_status.cpp(109,3): warning C4996: 'BOM_line_look_up_attribute': "BOM_line_look_up_attribute" deprecated in Teamcenter "13.2"; Use "TCTYPE_ask_property_by_name" instead.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\RH_check_bom_bop_status.cpp(112,3): warning C4996: 'BOM_line_ask_attribute_string': "BOM_line_ask_attribute_string" deprecated in Teamcenter "13.2"; Use "AOM_ask_displayable_values" instead.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\RH_check_bom_bop_status.cpp(113,3): warning C4996: 'BOM_line_ask_attribute_string': "BOM_line_ask_attribute_string" deprecated in Teamcenter "13.2"; Use "AOM_ask_displayable_values" instead.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\RH_check_bom_bop_status.cpp(152,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  RH_check_checkedout_objects.cpp
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\RH_check_checkedout_objects.cpp(84,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  RH_check_dde_status.cpp
+  RH_check_dde_storage_exception.cpp
+  RH_check_release_assembly_escooter.cpp
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\RH_check_release_assembly_escooter.cpp(43,3): warning C4996: 'BOM_line_look_up_attribute': "BOM_line_look_up_attribute" deprecated in Teamcenter "13.2"; Use "TCTYPE_ask_property_by_name" instead.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\RH_check_release_assembly_escooter.cpp(44,3): warning C4996: 'BOM_line_look_up_attribute': "BOM_line_look_up_attribute" deprecated in Teamcenter "13.2"; Use "TCTYPE_ask_property_by_name" instead.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\RH_check_release_assembly_escooter.cpp(45,3): warning C4996: 'BOM_line_look_up_attribute': "BOM_line_look_up_attribute" deprecated in Teamcenter "13.2"; Use "TCTYPE_ask_property_by_name" instead.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\RH_check_release_assembly_escooter.cpp(48,3): warning C4996: 'BOM_line_ask_attribute_string': "BOM_line_ask_attribute_string" deprecated in Teamcenter "13.2"; Use "AOM_ask_displayable_values" instead.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\RH_check_release_assembly_escooter.cpp(49,3): warning C4996: 'BOM_line_ask_attribute_string': "BOM_line_ask_attribute_string" deprecated in Teamcenter "13.2"; Use "AOM_ask_displayable_values" instead.
+  RH_check_release_status.cpp
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\RH_check_release_status.cpp(101,8): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  RH_check_revision_baseline.cpp
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\RH_check_revision_baseline.cpp(115,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  RH_check_SAP_transfer_prop.cpp
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\RH_check_SAP_transfer_prop.cpp(61,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\RH_check_SAP_transfer_prop.cpp(68,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\RH_check_SAP_transfer_prop.cpp(79,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\RH_check_SAP_transfer_prop.cpp(90,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\RH_check_SAP_transfer_prop.cpp(110,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\RH_check_SAP_transfer_prop.cpp(117,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\RH_check_SAP_transfer_prop.cpp(159,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\RH_check_SAP_transfer_prop.cpp(165,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\RH_check_SAP_transfer_prop.cpp(171,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\RH_check_SAP_transfer_prop.cpp(177,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\RH_check_SAP_transfer_prop.cpp(183,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\RH_check_SAP_transfer_prop.cpp(189,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\RH_check_SAP_transfer_prop.cpp(195,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  RH_Check_unreleaseed_ItemRevision.cpp
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\RH_Check_unreleaseed_ItemRevision.cpp(133,3): warning C4996: 'BOM_line_look_up_attribute': "BOM_line_look_up_attribute" deprecated in Teamcenter "13.2"; Use "TCTYPE_ask_property_by_name" instead.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\RH_Check_unreleaseed_ItemRevision.cpp(134,3): warning C4996: 'BOM_line_look_up_attribute': "BOM_line_look_up_attribute" deprecated in Teamcenter "13.2"; Use "TCTYPE_ask_property_by_name" instead.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\RH_Check_unreleaseed_ItemRevision.cpp(135,3): warning C4996: 'BOM_line_look_up_attribute': "BOM_line_look_up_attribute" deprecated in Teamcenter "13.2"; Use "TCTYPE_ask_property_by_name" instead.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\RH_Check_unreleaseed_ItemRevision.cpp(138,3): warning C4996: 'BOM_line_ask_attribute_string': "BOM_line_ask_attribute_string" deprecated in Teamcenter "13.2"; Use "AOM_ask_displayable_values" instead.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\RH_Check_unreleaseed_ItemRevision.cpp(139,3): warning C4996: 'BOM_line_ask_attribute_string': "BOM_line_ask_attribute_string" deprecated in Teamcenter "13.2"; Use "AOM_ask_displayable_values" instead.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\RH_Check_unreleaseed_ItemRevision.cpp(192,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  RH_check_workflow_process_status.cpp
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\RH_check_workflow_process_status.cpp(112,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  AH_create_purchasing_object.cpp
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\AH_create_purchasing_object.cpp(155,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating Code...
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\AH_send_mail_update_status_jes.cpp(124): warning C4715: 'AH_send_mail_update_status_jes': not all control paths return a value
+  Compiling...
+  RH_is_ECN_valid_to_trigger.cpp
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\RH_is_ECN_valid_to_trigger.cpp(66,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\RH_is_ECN_valid_to_trigger.cpp(143,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  RH_is_include_baseline_revisions.cpp
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\RH_is_include_baseline_revisions.cpp(83,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  RH_Part_Not_Include_Release_Statuses.cpp
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\RH_Part_Not_Include_Release_Statuses.cpp(172,10): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  RH_set_task_state.cpp
+  RH_check_object_properties.cpp
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\RH_check_object_properties.cpp(22,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\RH_check_object_properties.cpp(157,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\RH_check_object_properties.cpp(160,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  AH_create_ecn.cpp
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\AH_create_ecn.cpp(143,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\AH_create_ecn.cpp(149,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\AH_create_ecn.cpp(264,8): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\AH_create_ecn.cpp(290,8): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\AH_create_ecn.cpp(311,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\AH_create_ecn.cpp(314,8): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\AH_create_ecn.cpp(366,8): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\AH_create_ecn.cpp(398,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\AH_create_ecn.cpp(457,8): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\AH_create_ecn.cpp(538,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\AH_create_ecn.cpp(609,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\AH_create_ecn.cpp(612,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\AH_create_ecn.cpp(699,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\AH_create_ecn.cpp(755,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  AH_cpy_piece_cost_form.cpp
+  Vinfast_Custom.cpp
+D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\VF_handlers\Vinfast_Custom.cpp(201,7): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating Code...
+     Creating library D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\x64\Debug\VF_handlers.lib and object D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\x64\Debug\VF_handlers.exp
+  VF_handlers.vcxproj -> D:\Project\VF%20PLM%20DEV\tc-13.1\customization\itk_dll\VF_handlers\x64\Debug\VF_handlers.dll
