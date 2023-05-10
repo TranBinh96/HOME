@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--=================================================================================================
+
+                                             HEADER
+
+====================================================================================================
+File description:
+
+            Filename: savemanager.xml
+
+            Teamcenter Manager for CATIA V5 save manager customization XML File.
+====================================================================================================
+Quick help:
+
+==================================================================================================-->
+<UIApplication class="com.tcic.application.VFSaveManagerApplication"
+             nameRef="Teamcenter Save Manager"
+             image="/com/ebsolutions/uimanager/modules/images/savemanager.png"
+             sizex="1200" sizey="700" lang="">
+
+  <!-- Global Options Status -->
+  <SaveManagerToolBar nameRef="STATES" identifier="states"
+      class="com.ebsolutions.uiapplication.ui.UIApplicationToolBar">
+	  <DisplayElement
+	  identifier="save_mode"
+	  class = "com.tcic.displayelements.SaveModeLabel" />
+    <DisplayElement
+        showTitle="false"
+        image="/com/ebsolutions/uimanager/modules/images/createjt.png"
+        identifier="create_jt_flag"
+        class="com.ebsolutions.uimanager.modules.SaveModuleToolBarCheckBox"
+        action="com.ebsolutions.uimanager.actions.CreateJTAction"/>
+    <DisplayElement
+        showTitle="false"
+        image="/com/ebsolutions/uimanager/modules/images/cptgeo.gif"
+        identifier="compute_geo_flag"
+        class="com.ebsolutions.uimanager.modules.SaveModuleToolBarCheckBox"
+        action="com.ebsolutions.uimanager.actions.ComputeMassPropertiesAction"/>
+    <DisplayElement
+        showTitle="false"
+        image="/com/ebsolutions/uimanager/modules/images/compgeomainbody_icon.png"
+        identifier="main_body_geo_flag"
+        class="com.ebsolutions.uimanager.modules.SaveModuleToolBarCheckBox"
+        action="com.ebsolutions.uimanager.actions.ComputeMassPropertiesForMainBodyAction"/>
+    <DisplayElement
+        showTitle="false"
+        image="/com/ebsolutions/uimanager/modules/images/activateshapes.gif"
+        identifier="save_active_shapes_flag"
+        class="com.ebsolutions.uimanager.modules.SaveModuleToolBarCheckBox"
+        action="com.ebsolutions.uimanager.actions.SaveActiveShapesAction"/>
+    <DisplayElement
+        showTitle="false"
+        image="/com/ebsolutions/uimanager/modules/images/hideshow.png"
+        identifier="hide_show_flag"
+        class="com.ebsolutions.uimanager.modules.SaveModuleToolBarCheckBox"
+        action="com.ebsolutions.uimanager.actions.SaveHideShowAction"/>
+    <DisplayElement
+        showTitle="false"
+        image="/com/ebsolutions/uimanager/modules/images/checkin.png"
+        identifier="check_in_flag"
+        class="com.ebsolutions.uimanager.modules.SaveModuleToolBarCheckBox"
+        action="com.ebsolutions.uimanager.actions.CheckOnSaveAction"/>
+    <DisplayElement
+        showTitle="false"
+        image="/com/ebsolutions/uimanager/modules/images/forcesave_icon.png"
+        identifier="force_save_flag"
+        class="com.ebsolutions.uimanager.modules.SaveModuleToolBarCheckBox"
+        action="com.ebsolutions.uimanager.actions.ForceSaveAction"/>
+    <DisplayElement
+        showTitle="false"
+        image="/com/ebsolutions/uimanager/modules/images/highlight_selected.png"
+        identifier="dynamic_cross_highlight_flag"
+        class="com.ebsolutions.uimanager.modules.SaveModuleToolBarCheckBox"
+        action="com.ebsolutions.uimanager.actions.DCHActivationAction"/>
+    <DisplayElement
+        identifier="destination_folder"
+        class="com.ebsolutions.uimanager.modules.SelectFolderComboBox"
+        action="com.ebsolutions.uimanager.actions.SelectFolderAction"/>
+  </SaveManagerToolBar>
+
+
+  <!-- SAVE MODULE -->
+  <Module nameRef="Save Module"
+      name="save_module"
+      moduleHandler="com.ebsolutions.uimanager.handlers.SaveModuleHandler"
+      image="/com/ebsolutions/uimanager/modules/images/save.png"
+      class="com.tcic.tableeditor.VFSaveModule">
+
+    <!-- Columns definition -->
+    <Column name="status"/>
+    <Column name="catia_status" width="60"/>
+    <Column name="save_mode"/>
+    <Column name="TC Item item_id" width="225"/>
+    <Column name="TC ItemRev item_revision_id"/>
+    <Column name="document_type"/>
+    <Column name="TC Item object_type"/>
+    <Column name="co_status" width="29"/>
+    <Column name="catalog_comp" width="29"/>
+
+    <!-- SAVE MODULE toolbar -->
+    <ToolBar nameRef="SAVE_TOOL_BAR"
+        identifier="saveModuleToolBar"
+        class="com.ebsolutions.uimanager.modules.SaveModuleToolBar">
+    <DisplayElement
+          showTitle="false"
+          identifier="create_new"
+          image="/com/ebsolutions/uimanager/modules/images/createnew.png"
+          class="com.ebsolutions.uimanager.modules.SaveModuleToolBarButton"
+          action="com.ebsolutions.uimanager.actions.CreateNewAction"/>        
+      <DisplayElement
+          showTitle="false"
+          identifier="save_as"
+          image="/com/ebsolutions/uimanager/modules/images/saveas.png"
+          class="com.ebsolutions.uimanager.modules.SaveModuleToolBarButton"
+          action="com.ebsolutions.uimanager.actions.SaveAsAction"/>
+      <DisplayElement
+          showTitle="false"
+          identifier="Duplicate"
+          image="/com/ebsolutions/uimanager/modules/images/copyitem_25.png"
+          class="com.ebsolutions.uimanager.modules.SaveModuleToolBarButton"
+          action="com.ebsolutions.uimanager.actions.DuplicateAction"/>          
+      <DisplayElement
+          showTitle="false"
+          identifier="new_revision"
+          image="/com/ebsolutions/uimanager/modules/images/newrevision.png"
+          class="com.ebsolutions.uimanager.modules.SaveModuleToolBarButton"
+          action="com.ebsolutions.uimanager.actions.NewRevisionAction"/>
+      <DisplayElement
+          showTitle="false"
+          identifier="existing_revision"
+          image="/com/ebsolutions/uimanager/modules/images/existingrevision.png"
+          class="com.ebsolutions.uimanager.modules.SaveModuleToolBarButton"
+          action="com.ebsolutions.uimanager.actions.ExistingRevisionAction"/>
+      <DisplayElement
+          showTitle="false"
+          identifier="existing_dataset"
+          image="/com/ebsolutions/uimanager/modules/images/existingdataset.png"
+          class="com.ebsolutions.uimanager.modules.SaveModuleToolBarButton"
+          action="com.ebsolutions.uimanager.actions.ExistingDatasetAction"/>	
+    </ToolBar>
+
+    <!-- SAVE MODULE database tools -->
+    <ToolBar nameRef="ACTIONS" 
+        identifier="actions"
+        class="com.ebsolutions.uimanager.modules.SaveModuleToolBar">
+      <DisplayElement
+          showTitle="false"
+          identifier="check_in"
+          image="/com/ebsolutions/uimanager/modules/images/checkin.png"
+          class="com.ebsolutions.uimanager.modules.SaveModuleToolBarButton"
+          action="com.ebsolutions.uimanager.actions.CheckInAction"/>
+      <DisplayElement
+          showTitle="false"
+          identifier="check_out"
+          image="/com/ebsolutions/uimanager/modules/images/checkout.png"
+          class="com.ebsolutions.uimanager.modules.SaveModuleToolBarButton"
+          action="com.tcic.actions.VFCheckOutAction"/>
+    </ToolBar>
+
+    <!-- SAVE MODULE edition tools -->
+    <ToolBar nameRef="TOOLS" 
+        identifier="tools"
+        class="com.ebsolutions.uimanager.modules.SaveModuleToolBar">
+      <DisplayElement
+          showTitle="false"
+          identifier="assign"
+          image="/com/ebsolutions/uimanager/modules/images/assign.png"
+          class="com.ebsolutions.uimanager.modules.SaveModuleToolBarButton"
+          action="com.ebsolutions.uimanager.actions.AssignAction"/>
+      <DisplayElement
+          showTitle="false"
+          identifier="reset"
+          image="/com/ebsolutions/uimanager/modules/images/clear.gif"
+          class="com.ebsolutions.uimanager.modules.SaveModuleToolBarButton"
+          action="com.ebsolutions.uimanager.actions.EraseItemIDAction"/>
+    </ToolBar>
+  </Module>
+</UIApplication>

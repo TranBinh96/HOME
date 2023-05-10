@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="215cf67a-aef2-4969-a3fd-3eb6a956d13f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/com/mycusto/images/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/com/mycusto/images/VF4JFItem.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/com/mycusto/images/autosave.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/com/mycusto/images/check.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/com/mycusto/images/custom.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/com/mycusto/images/drawing.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/com/mycusto/images/explorer.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/com/mycusto/images/foldercollapsed_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/com/mycusto/images/folderexpanded_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/com/mycusto/images/green.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/com/mycusto/images/homefolder_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/com/mycusto/images/item_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/com/mycusto/images/itemrevision_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/com/mycusto/images/lock.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/com/mycusto/images/modified.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/com/mycusto/images/mybutton.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/com/mycusto/images/new.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/com/mycusto/images/notmodified.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/com/mycusto/images/part.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/com/mycusto/images/product.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/com/mycusto/images/red.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/com/mycusto/images/selected.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/com/tcic/actions/ComponentAttribute.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/com/tcic/actions/ComponentAttribute.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/com/tcic/actions/JFPartCreation.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/com/tcic/actions/JFPartCreation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/com/tcic/tableeditor/CustomSaveModule.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/com/tcic/tableeditor/CustomSaveModule.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/com/tcic/tableeditor/CustomizedTableEditor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/com/tcic/tableeditor/CustomizedTableEditor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/buildCusto.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../build/buildCusto.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/mycusto/images/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/mycusto/images/VF4JFItem.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/mycusto/images/autosave.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/mycusto/images/check.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/mycusto/images/custom.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/mycusto/images/drawing.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/mycusto/images/explorer.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/mycusto/images/foldercollapsed_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/mycusto/images/folderexpanded_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/mycusto/images/green.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/mycusto/images/homefolder_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/mycusto/images/item_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/mycusto/images/itemrevision_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/mycusto/images/lock.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/mycusto/images/modified.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/mycusto/images/mybutton.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/mycusto/images/new.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/mycusto/images/notmodified.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/mycusto/images/part.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/mycusto/images/product.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/mycusto/images/red.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/mycusto/images/selected.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/tcic/actions/AbstractCustomAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/tcic/actions/AbstractCustomAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/tcic/actions/JFPartCreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/tcic/actions/JFPartCreation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/tcic/actions/MPDesignCreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/tcic/actions/MPDesignCreation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/tcic/modules/CustomDescriptorPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/tcic/tableeditor/CustomDescriptorPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/tcic/tableeditor/CustomSaveModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/tcic/tableeditor/CustomSaveModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/tcic/tableeditor/CustomizedTableEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/tcic/tableeditor/CustomizedTableEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../DDE/DDE/DDE/trunk/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../DDE/DDE/DDE/trunk/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../DDE/DDE/serverConnect/trunk/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../DDE/DDE/serverConnect/trunk/.classpath" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2Jvv3teNowHlm6gtgWhTlrjQD8G" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/bangpq/PLM_OPS_REPOS",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="215cf67a-aef2-4969-a3fd-3eb6a956d13f" name="Changes" comment="" />
+      <created>1672971176020</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672971176020</updated>
+    </task>
+    <servers />
+  </component>
+</project>

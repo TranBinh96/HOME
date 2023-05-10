@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.mapstruct:mapstruct:1.4.2.Final">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../VF%20PLM%20DEV/tc-13.1/deliverable/soa_standalone/org/mapstruct/mapstruct/1.4.2.Final/mapstruct-1.4.2.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../VF%20PLM%20DEV/tc-13.1/deliverable/soa_standalone/org/mapstruct/mapstruct/1.4.2.Final/mapstruct-1.4.2.Final-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../VF%20PLM%20DEV/tc-13.1/deliverable/soa_standalone/org/mapstruct/mapstruct/1.4.2.Final/mapstruct-1.4.2.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

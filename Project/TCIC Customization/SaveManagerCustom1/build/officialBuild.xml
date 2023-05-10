@@ -1,0 +1,232 @@
+<?xml version="1.0"?>
+<project name="SavemangerCusto" default="SavemangerCusto.build">
+
+	<target name="SavemangerCusto.build" description="Compilation of SavemangerCusto" depends="SavemangerCusto.varinit,
+		              SavemangerCusto.message.autorized" if="is.SavemangerCusto.autorized">
+
+		<echo message="*** Compilation of SavemangerCusto... ***" />
+
+		<!-- Source Compilation -->
+		<mkdir dir="${SavemangerCusto.class.location}" />
+		<javac deprecation="off" debug="yes" verbose="no" optimize="true" fork="yes" destdir="${SavemangerCusto.class.location}" srcdir="${SavemangerCusto.src.location}" executable="${java.executable}">
+			<compilerarg value="-Xlint" />
+
+			<classpath>
+				<pathelement location="C:/Siemens/TCIC_V5/racless/Cat2soacore.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/Awb0SoaActiveWorkspaceBomStrong_13000.0.0.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/Awb0SoaStrongModelActiveWorkspaceBom_13000.0.0.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/axiom-api-1.2.20.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/axiom-impl-1.2.20.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/Cat2SoaLibraryStrong.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/com.teamcenter.utility_1.0.0.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/commons-codec.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/commons-logging.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/dom4j-2.1.1.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/fccclient.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/fccjavaclientproxy.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/fmsutil.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/fscclient.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/fscjavaclientproxy.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/GeolusIndexerTK-11.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/httpclient-4.5.10.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/httpcore-4.4.12.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/icctstubs.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/isorelax.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/Jama-1.0.1.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/javax.activation-api.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/jaxb-api.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/jaxb-impl.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/jaxb-xjc.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/log4j-1.2-api-2.17.1.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/log4j-api-2.17.1.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/log4j-core-2.17.1.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/msv.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/org.eclipse.core.commands_3.9.200.v20180827-1727.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/org.eclipse.core.jobs_3.10.200.v20180912-1356.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/org.eclipse.core.runtime_3.15.100.v20181107-1343.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/org.eclipse.equinox.common_3.10.200.v20181021-1645.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/org.eclipse.jface_3.15.0.v20181123-1505.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/resolver.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/swt.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/tcmemjavabinding.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/tcserverjavabinding.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/TcSoaAdministrationStrong_13000.1.0.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/TcSoaBusinessModelerStrong_13000.1.0.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/TcSoaCadStrong_13000.1.0.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/TcSoaClient_13000.1.0.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/TcSoaCommon_13000.1.0.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/TcSoaCoreStrong_13000.1.0.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/TcSoaQueryStrong_13000.1.0.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/TcSoaStrongModel_13000.1.0.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/TcSoaStructureManagementStrong_13000.1.0.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/TcSoaWorkflowStrong_13000.1.0.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/tctp_13000.1.0.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/teamcenter_sso_applib.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/teamcenter_sso_common.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/teamcenter_sso_ldapcustom.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/teamcenter_sso_webtoolkit.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/ws-commons-util-1.0.2.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/xercesImpl.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/xml-apis.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/xmlrpc-client-3.1.3.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/xmlrpc-common-3.1.3.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/lib/xmlrpc-server-3.1.3.jar" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/Cat2utility.jar" />
+				<pathelement location="${RACLESS.extlibs.location}/${system.name}/${swt}" />
+				<pathelement location="C:/Siemens/TCIC_V5/racless/Cat2uimanager.jar" />
+				<pathelement location="C:/Program Files/Java/jre1.8.0_202/lib/rt.jar" />
+			</classpath>
+		</javac>
+
+
+
+		<!-- Copy properties files and images -->
+		<copy todir="${SavemangerCusto.class.location}">
+			<fileset dir="${SavemangerCusto.src.location}" includes="**/*.properties" />
+			<fileset dir="${SavemangerCusto.src.location}" includes="**/*.png" />
+			<fileset dir="${SavemangerCusto.src.location}" includes="**/*.gif" />
+			<fileset dir="${SavemangerCusto.src.location}" includes="**/*.xml" />
+		</copy>
+
+		<jar jarfile="${SavemangerCusto.jar.location}/${SavemangerCusto.jar.name}" compress="true" basedir="${SavemangerCusto.class.location}">
+
+			<include name="**/*.class" />
+			<include name="**/*.gif" />
+			<include name="**/*.png" />
+			<include name="**/*.properties" />
+		</jar>
+
+		<delete file="${RACLESS.extensions.location}/${SavemangerCusto.jar.name}" />
+		<delete file="Z:/01_PLM_Team/03_Intergration/TCICSavemangerCustom/${SavemangerCusto.jar.name}" />
+
+
+
+		<copy todir="Z:/01_PLM_Team/03_Intergration/TCICSavemangerCustom">
+			<fileset dir="${SavemangerCusto.jar.location}" includes= "${SavemangerCusto.jar.name}"/>
+		</copy>
+		<copy todir="${RACLESS.extensions.location}">
+			<fileset dir="${SavemangerCusto.jar.location}" includes="**/*.jar" />
+		</copy>
+
+		<echo message="*** Fin de la compilation du workspace SavemangerCustor***" />
+	</target>
+
+	<!--CLEAN-->
+	<!-- clean workspace TC_RACLESS.Cat2uimanager -->
+	<target name="SavemangerCusto.clean" description="Clean SavemangerCusto" depends="SavemangerCusto.varinit,
+    	          SavemangerCusto.message.autorized" if="is.SavemangerCusto.autorized">
+
+		<echo message="*** Workspace cleaning SavemangerCusto... ***" />
+
+		<delete dir="${SavemangerCusto.class.location}" />
+		<delete dir="${SavemangerCusto.jar.location}" />
+
+		<echo message="*** end of SavemangerCusto workspace cleaning. ***" />
+	</target>
+
+	<target name="SavemangerCusto.message.autorized" unless="is.SavemangerCusto.autorized">
+		<echo message="*** The requested task is not authorized. ***" />
+	</target>
+
+	<target name="SavemangerCusto.varinit">
+		<!-- Analyze your OS -->
+		<!-- Windows 64 -->
+		<exec os="Windows 10" dir="." executable="cmd" outputproperty="command.ouput">
+			<arg line="/c SET ProgramFiles(x86)" />
+		</exec>
+		<condition property="system.name" value="WIN64">
+			<contains string="${command.ouput}" substring="Program Files (x86)" />
+		</condition>
+
+		<!-- Windows 32 -->
+		<condition value="WIN32" property="system.name">
+			<equals arg1="${os.name}" arg2="Windows XP" />
+		</condition>
+
+		<!--  Sun / Aix / HP -->
+		<condition value="${os.name}" property="system.name">
+			<and>
+				<os family="Unix" />
+				<not>
+					<os arch="IA64N" />
+				</not>
+			</and>
+		</condition>
+
+		<!--  HP-64 -->
+		<condition value="HP-UX64" property="system.name">
+			<and>
+				<os family="Unix" />
+				<os arch="IA64N" />
+			</and>
+		</condition>
+
+		<!--  Linux -->
+		<condition value="Linux" property="system.name">
+			<os name="Linux" />
+		</condition>
+
+
+		<!-- Workspace -->
+		<!--*****************************  PROPRIETES         *****************************-->
+		<!--reading the file build.properties-->
+		<property name="SavemangerCusto.location" location="C:\Users\bangpq\PLM_Repos\CATIA\TCIC Customization\SaveManagerCustom1" />
+		<property name="SavemangerCusto.class.location" location="${SavemangerCusto.location}/class" />
+		<property name="SavemangerCusto.src.location" location="${SavemangerCusto.location}/src" />
+		<property name="SavemangerCusto.jar.location" location="C:\Siemens\TCIC_V5\racless" />
+		<property name="SavemangerCusto.jar.name" value="SaveManagerCustom_3.0.0.jar" />
+		<property name="SavemangerCusto.buildname" value="build.xml" />
+
+		<property name="SavemangerCusto.build.properties.file" location="${SavemangerCusto.location}/BUILD/build.properties" />
+		<property file="${SavemangerCusto.build.properties.file}" />
+		<fail unless="TEAMCENTER.name">Please set the value of TEAMCENTER.name in ${SavemangerCusto.build.properties.file}</fail>
+		<fail unless="TEAMCENTER.version">Please set the value of TEAMCENTER.version in ${SavemangerCusto.build.properties.file}</fail>
+		<fail unless="RACLESS.location">Please set the value of RACLESS.location in ${SavemangerCusto.build.properties.file}</fail>
+		<echo message="*** propriete passee par le build.xml du module pilote sinon est  lue dans ${SavemangerCusto.build.properties.file}***" />
+		<echo message=" ---> TEAMCENTER.name=${TEAMCENTER.name}" />
+		<echo message=" ---> TEAMCENTER.version=${TEAMCENTER.version}" />
+		<echo message=" ---> RACLESS.location=${RACLESS.location}" />
+
+		<!-- reading the file build_${TEAMCENTER.version}.properties -->
+		<property name="SavemangerCusto.build.properties.tc.file" location="${SavemangerCusto.location}/BUILD/build_${TEAMCENTER.version}.properties" />
+		<property file="${SavemangerCusto.build.properties.tc.file}" />
+		<fail unless="java.path" if="is.SavemangerCusto.autorized">Please set the value of java.path in ${SavemangerCusto.build.propertiess.os.tc.file}</fail>
+		<echo message="*** proprietes lues dans ${SavemangerCusto.build.properties.tc.file}***" />
+		<echo message=" ---> java.path= ${java.path}" />
+
+
+		<!-- property relative RACLESS.extlibs -->
+		<property name="RACLESS.extlibs.location" location="${RACLESS.location}/lib" />
+		<property name="RACLESS.extensions.location" value="${RACLESS.location}/extensions" />
+
+		<!-- java relative property -->
+		<property name="java.executable" location="${java.path}/bin/javac" />
+
+
+		<!-- TASK MANAGEMENT -->
+		<!-- Right of access for platforms to compile the SavemangerCusto -->
+		<condition property="is.SavemangerCusto.autorized" value="true">
+			<or>
+				<and>
+					<equals arg1="${TEAMCENTER.name}" arg2="Tc10" />
+					<or>
+						<equals arg1="${system.name}" arg2="WIN32" />
+						<equals arg1="${system.name}" arg2="WIN64" />
+					</or>
+				</and>
+				<and>
+					<equals arg1="${TEAMCENTER.name}" arg2="Tc11" />
+					<equals arg1="${system.name}" arg2="WIN64" />
+				</and>
+				<and>
+					<equals arg1="${TEAMCENTER.name}" arg2="Tc12" />
+					<equals arg1="${system.name}" arg2="WIN64" />
+				</and>
+				<and>
+					<equals arg1="${TEAMCENTER.name}" arg2="Tc13" />
+					<equals arg1="${system.name}" arg2="WIN64" />
+				</and>
+			</or>
+		</condition>
+	</target>
+</project>

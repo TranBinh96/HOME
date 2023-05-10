@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.google.j2objc:j2objc-annotations:1.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../VF%20PLM%20DEV/tc-13.1/deliverable/soa_standalone/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../VF%20PLM%20DEV/tc-13.1/deliverable/soa_standalone/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../VF%20PLM%20DEV/tc-13.1/deliverable/soa_standalone/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

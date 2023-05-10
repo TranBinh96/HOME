@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/Cat2bmml.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/Cat2codeutility.jar!/" />
+    <libelement value="file://$MODULE_DIR$/../../../../TCIC_V5/racless/Cat2errormessagehandler.jar" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/Cat2journaling.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/Cat2locale.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/Cat2soacore.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/Cat2utility.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/Systray.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/Awb0SoaActiveWorkspaceBomStrong_13000.0.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/Awb0SoaStrongModelActiveWorkspaceBom_13000.0.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/axiom-api-1.2.20.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/axiom-impl-1.2.20.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/Cat2SoaLibraryStrong.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/com.teamcenter.utility_1.0.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/commons-codec.jar!/" />
+    <libelement value="file://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/commons-logging.jar" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/dom4j-2.1.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/fccclient.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/fccjavaclientproxy.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/fmsutil.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/fscclient.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/fscjavaclientproxy.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/GeolusIndexerTK-11.jar!/" />
+    <libelement value="file://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/httpclient-4.5.10.jar" />
+    <libelement value="file://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/httpcore-4.4.12.jar" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/icctstubs.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/isorelax.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/Jama-1.0.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/javax.activation-api.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/jaxb-api.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/jaxb-impl.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/jaxb-xjc.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/log4j-1.2-api-2.17.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/log4j-api-2.17.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/log4j-core-2.17.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/msv.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/org.eclipse.core.commands_3.9.200.v20180827-1727.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/org.eclipse.core.jobs_3.10.200.v20180912-1356.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/org.eclipse.core.runtime_3.15.100.v20181107-1343.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/org.eclipse.equinox.common_3.10.200.v20181021-1645.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/org.eclipse.jface_3.15.0.v20181123-1505.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/resolver.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/swt.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/tcmemjavabinding.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/tcserverjavabinding.jar!/" />
+    <libelement value="file://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/TcSoaAdministrationStrong_13000.1.0.jar" />
+    <libelement value="file://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/TcSoaBusinessModelerStrong_13000.1.0.jar" />
+    <libelement value="file://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/TcSoaCadStrong_13000.1.0.jar" />
+    <libelement value="file://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/TcSoaClient_13000.1.0.jar" />
+    <libelement value="file://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/TcSoaCommon_13000.1.0.jar" />
+    <libelement value="file://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/TcSoaCoreStrong_13000.1.0.jar" />
+    <libelement value="file://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/TcSoaQueryStrong_13000.1.0.jar" />
+    <libelement value="file://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/TcSoaStrongModel_13000.1.0.jar" />
+    <libelement value="file://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/TcSoaStructureManagementStrong_13000.1.0.jar" />
+    <libelement value="file://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/TcSoaWorkflowStrong_13000.1.0.jar" />
+    <libelement value="file://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/tctp_13000.1.0.jar" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/teamcenter_sso_applib.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/teamcenter_sso_common.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/teamcenter_sso_ldapcustom.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/teamcenter_sso_webtoolkit.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/ws-commons-util-1.0.2.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/xercesImpl.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/xml-apis.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/xmlrpc-client-3.1.3.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/xmlrpc-common-3.1.3.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/xmlrpc-server-3.1.3.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/Cat2uimanager.jar!/" />
+    <src_description expected_position="0">
+      <src_folder value="file://$MODULE_DIR$/src" expected_position="0" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/bin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="module-library">
+      <library name="Cat2bmml.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/Cat2bmml.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Cat2codeutility.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/Cat2codeutility.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Cat2errormessagehandler.jar">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../../TCIC_V5/racless/Cat2errormessagehandler.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Cat2journaling.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/Cat2journaling.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Cat2locale.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/Cat2locale.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Cat2soacore.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/Cat2soacore.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Cat2utility.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/Cat2utility.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Systray.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/Systray.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Awb0SoaActiveWorkspaceBomStrong_13000.0.0.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/Awb0SoaActiveWorkspaceBomStrong_13000.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Awb0SoaStrongModelActiveWorkspaceBom_13000.0.0.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/Awb0SoaStrongModelActiveWorkspaceBom_13000.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="axiom-api-1.2.20.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/axiom-api-1.2.20.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="axiom-impl-1.2.20.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/axiom-impl-1.2.20.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Cat2SoaLibraryStrong.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/Cat2SoaLibraryStrong.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="com.teamcenter.utility_1.0.0.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/com.teamcenter.utility_1.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-codec.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/commons-codec.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-logging.jar">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/commons-logging.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="dom4j-2.1.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/dom4j-2.1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fccclient.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/fccclient.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fccjavaclientproxy.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/fccjavaclientproxy.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fmsutil.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/fmsutil.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fscclient.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/fscclient.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fscjavaclientproxy.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/fscjavaclientproxy.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="GeolusIndexerTK-11.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/GeolusIndexerTK-11.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="httpclient-4.5.10.jar">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/httpclient-4.5.10.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="httpcore-4.4.12.jar">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/httpcore-4.4.12.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="icctstubs.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/icctstubs.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="isorelax.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/isorelax.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Jama-1.0.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/Jama-1.0.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="javax.activation-api.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/javax.activation-api.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jaxb-api.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/jaxb-api.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jaxb-impl.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/jaxb-impl.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jaxb-xjc.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/jaxb-xjc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="log4j-1.2-api-2.17.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/log4j-1.2-api-2.17.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="log4j-api-2.17.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/log4j-api-2.17.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="log4j-core-2.17.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/log4j-core-2.17.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="msv.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/msv.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.eclipse.core.commands_3.9.200.v20180827-1727.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/org.eclipse.core.commands_3.9.200.v20180827-1727.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.eclipse.core.jobs_3.10.200.v20180912-1356.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/org.eclipse.core.jobs_3.10.200.v20180912-1356.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.eclipse.core.runtime_3.15.100.v20181107-1343.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/org.eclipse.core.runtime_3.15.100.v20181107-1343.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.eclipse.equinox.common_3.10.200.v20181021-1645.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/org.eclipse.equinox.common_3.10.200.v20181021-1645.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.eclipse.jface_3.15.0.v20181123-1505.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/org.eclipse.jface_3.15.0.v20181123-1505.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="resolver.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/resolver.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="swt.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/swt.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="tcmemjavabinding.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/tcmemjavabinding.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="tcserverjavabinding.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/tcserverjavabinding.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="TcSoaAdministrationStrong_13000.1.0.jar">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/TcSoaAdministrationStrong_13000.1.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="TcSoaBusinessModelerStrong_13000.1.0.jar">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/TcSoaBusinessModelerStrong_13000.1.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="TcSoaCadStrong_13000.1.0.jar">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/TcSoaCadStrong_13000.1.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="TcSoaClient_13000.1.0.jar">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/TcSoaClient_13000.1.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="TcSoaCommon_13000.1.0.jar">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/TcSoaCommon_13000.1.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="TcSoaCoreStrong_13000.1.0.jar">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/TcSoaCoreStrong_13000.1.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="TcSoaQueryStrong_13000.1.0.jar">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/TcSoaQueryStrong_13000.1.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="TcSoaStrongModel_13000.1.0.jar">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/TcSoaStrongModel_13000.1.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="TcSoaStructureManagementStrong_13000.1.0.jar">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/TcSoaStructureManagementStrong_13000.1.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="TcSoaWorkflowStrong_13000.1.0.jar">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/TcSoaWorkflowStrong_13000.1.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="tctp_13000.1.0.jar">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/tctp_13000.1.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="teamcenter_sso_applib.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/teamcenter_sso_applib.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="teamcenter_sso_common.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/teamcenter_sso_common.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="teamcenter_sso_ldapcustom.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/teamcenter_sso_ldapcustom.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="teamcenter_sso_webtoolkit.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/teamcenter_sso_webtoolkit.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ws-commons-util-1.0.2.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/ws-commons-util-1.0.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="xercesImpl.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/xercesImpl.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="xml-apis.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/xml-apis.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="xmlrpc-client-3.1.3.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/xmlrpc-client-3.1.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="xmlrpc-common-3.1.3.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/xmlrpc-common-3.1.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="xmlrpc-server-3.1.3.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/lib/xmlrpc-server-3.1.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Cat2uimanager.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../TCIC_V5/racless/Cat2uimanager.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="Maven: vfplm.soa.lib:TcSoaClient:13000.3.0" level="project" />
+  </component>
+</module>
